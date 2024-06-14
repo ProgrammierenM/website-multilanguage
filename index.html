@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mehrsprachige Website</title>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav id="page-navigation">
+        <ul>
+          <li>
+            <a
+              href="index.html"
+              onclick="changeLanguage('de')"
+              data-i18n="nav_german"
+              >Deutsch</a
+            >
+          </li>
+          <li>
+            <a
+              href="index.html"
+              onclick="changeLanguage('en')"
+              data-i18n="nav_english"
+              >Englisch</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 data-i18n="page_title">Heute ist ein toller Tag</h1>
+      <p data-i18n="page_description">
+        Willkommen auf unserer Website! Wir bieten hochwertige Produkte und
+        exzellenten Kundenservice. Entdecken Sie unsere vielfältige Auswahl und
+        profitieren Sie von unseren attraktiven Angeboten. Unser Team steht
+        Ihnen jederzeit zur Verfügung, um Ihre Fragen zu beantworten. Besuchen
+        Sie uns regelmäßig für die neuesten Updates und Sonderaktionen.
+      </p>
+    </main>
+  </body>
+</html>
